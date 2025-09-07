@@ -1,0 +1,6 @@
+# This project is a simple HTML/CSS/JavaScript app and does not require Python dependencies.
+# However, if you want to serve it locally with Python, you can use:
+
+# Run: python -m http.server 8000
+# Then open http://localhost:8000/weather123.html
+
