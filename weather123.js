@@ -4,7 +4,7 @@ const locationButton = document.querySelector(".location-btn");
 const currentWeatherDiv = document.querySelector(".current-weather");
 const weatherCardsDiv = document.querySelector(".weather-cards");
 
-const API_KEY = "c36ff73e56e07b94ce20a9e0359a8d21";
+const API_KEY = "YOUR_API_KEY_HERE";
 
 const createWeatherCard = (cityName, weatherItem, index) => {
     if(index === 0) {
@@ -90,4 +90,5 @@ const getUserCoordinates = () => {
 
 locationButton.addEventListener("click", getUserCoordinates);
 searchButton.addEventListener("click", getCityCoordinates);
+
 cityInput.addEventListener("keyup", e => e.key === "Enter" && getCityCoordinates());
